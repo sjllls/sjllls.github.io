@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)) window.location.href="https://support.dmeng.net/upgrade-your-browser.html?referrer="+encodeURIComponent(window.location.href); </script>
+    
+    
+        <link rel="preload" crossorigin="crossorigin" href="/fonts/roboto/Roboto-Regular.woff2" as="font">
+        <link rel="preload" crossorigin="crossorigin" href="/fonts/roboto/Roboto-Bold.woff2" as="font">
+    
+    
+    
+        <link rel="shortcut icon" href="/icons/favicon.ico">
+    
+
+    
+    
+        
+<link rel="stylesheet" href="/css/mdui.min.v1.0.0.css">
+
+    
+    
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/iconfont.css">
+
+
+    
+    
+
+    
+        <script data-ad-client="ca-" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+    
+    
+    <title>
+        
+            F8132 Project Treble | 茉莉小站
+        
+    </title>
+    
+    
+<meta name="generator" content="Hexo 5.2.0"></head>
+<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-theme-accent-blue">
+  
+  <header class="mdui-appbar mdui-appbar-fixed">
+  <div id="toolbar" class="mdui-toolbar mdui-color-theme">
+    <button class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#sidebar', swipe: true}"><i class="iconfont icon-menu"></i></button>
+    <a href="/" class="mdui-typo-headline">茉莉小站</a>
+    <a href="/" class="header-subtitle mdui-typo-headline"></a>
+    <div class="mdui-toolbar-spacer"></div>
+    <button class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#search'}" mdui-tooltip="{content: 'search'}"><i class="iconfont icon-search"></i></button>
+  </div>
+</header>
+
+<div class="mdui-dialog" id="search">
+  
+    <div class="search-form">
+      <input type="search" class="search-form-input" placeholder="请输入关键字" onfocus="listenSearchFunc()">
+    </div>
+    <div class="search-result" data-resource="/search.xml"></div>
+  
+</div>
+
+  <aside id="sidebar" class="mdui-drawer">
+    <div class="mdui-tab" mdui-tab>
+        <a href="#sidebar-tab1" id="sidebartab" class="mdui-ripple mdui-tab-active">站点概览</a>
+        <a href="#sidebar-tab2" id="sidebartab" class="mdui-ripple">关于</a>
+    </div>
+
+    
+    <div id="sidebar-tab1" class="mdui-p-a-2">
+        <div class="mdui-list">
+            
+                
+                <a href="/" class="mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-icon">
+                        <i class="iconfont icon-home"></i>
+                    </div>
+                    <div class="mdui-list-item-content">主页</div>
+                </a>
+            
+                
+                <a href="/tags/" class="mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-icon">
+                        <i class="iconfont icon-bookmark"></i>
+                    </div>
+                    <div class="mdui-list-item-content">标签</div>
+                </a>
+            
+                
+                <a href="/categories/" class="mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-icon">
+                        <i class="iconfont icon-folder"></i>
+                    </div>
+                    <div class="mdui-list-item-content">分类</div>
+                </a>
+            
+                
+                <a href="/archives/" class="mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-icon">
+                        <i class="iconfont icon-archive"></i>
+                    </div>
+                    <div class="mdui-list-item-content">归档</div>
+                </a>
+            
+                
+                <a href="/about/" class="mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-icon">
+                        <i class="iconfont icon-user"></i>
+                    </div>
+                    <div class="mdui-list-item-content">关于</div>
+                </a>
+            
+            <div class="mdui-list-item mdui-ripple">
+                <div class="mdui-list-item-icon">
+                    <i class="iconfont icon-moon"></i>
+                </div>
+                <div class="mdui-list-item-content">夜间模式</div>
+                <label class="mdui-switch" id="darkmode">
+                  <input type="checkbox" id="nightmode_switch"/>
+                  <i class="mdui-switch-icon"></i>
+                </label>
+            </div>           
+        </div>
+    </div>
+
+    
+    <div id="sidebar-tab2" class="mdui-p-a-2">
+        <div class="sidebar-overview">
+            <div class="sidebar-avatar">
+                
+                    <img src="/icons/avatar.gif"/>
+                
+            </div>
+            <div class="sidebar-author-name">Sjll</div>
+            <div class="sidebar-description"></div>
+        </div>
+        <div class="sidebar-links">
+            
+                
+                <div class="mdui-chip">
+                    <span class="mdui-chip-icon"><i class="iconfont icon-mail"></i></span>
+                    <a href="mailto:2012ji123@gmail.com" class="mdui-chip-title">E-Mail</a>
+                </div>
+            
+                
+                <div class="mdui-chip">
+                    <span class="mdui-chip-icon"><i class="iconfont icon-github"></i></span>
+                    <a target="_blank" rel="noopener" href="https://github.com/sjllls" class="mdui-chip-title">GitHub</a>
+                </div>
+            
+        </div>
+        <ul class="mdui-list" mdui-collapse="{accordion: true}">
+            <li class="mdui-collapse-item">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <div class="mdui-list-item-icon">
+                        <i class="iconfont icon-link"></i>
+                    </div>
+                    <div class="mdui-list-item-content">友情链接</div>
+                    <div class="mdui-collapse-item-arrow">
+                        <i class="mdui-list-item-icon iconfont icon-angle-down"></i>
+                    </div>
+                </div>
+                <ul id="linksList" class="mdui-collapse-item-body mdui-list mdui-list-dense">
+                    
+                        <a target="_blank" rel="noopener" href="https://garybear.cn/hexo-theme-meadow/" class="mdui-list-item mdui-ripple">
+                            Meadow说明文档
+                        </a>
+                    
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="mdui-divider"></div>
+    
+    
+</aside>
+  
+  <main id="main-contain" class="mdui-container mdui-m-t-5">
+    <article id="article" class="mdui-card mdui-p-b-2 mdui-m-b-5">
+  <header class="mdui-card-media">
+    
+    
+      <div class="post-header"> 
+  <a class="post-header-title" href="/2018/10/15/2018/10/15/F8132%20Project%20Treble/">F8132 Project Treble</a>
+  <div class="post-header-meta">
+    <span>
+      <span class="iconfont icon-calendar"></span>
+      发布于:&nbsp;2018-10-15
+    </span>
+    <span>
+      <span class="iconfont icon-calendar-check"></span>
+      更新于:&nbsp;2020-10-17
+    </span>
+    <span>
+      <span class="iconfont icon-folder"></span>
+      分类于:&nbsp;<a class="category-link" href="/categories/SODP/">SODP</a>
+    </span>
+    
+      <span>
+        <span class="iconfont icon-eye"></span>
+        阅读次数:&nbsp;
+        <span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv"></span></span>
+      </span>
+    
+  </div>
+</div>   
+    
+
+
+
+    
+    
+    <div class="mdui-card-menu">
+    
+      <button class="mdui-btn mdui-btn-icon mdui-text-color-teal" mdui-menu="{target: '#share_menu', align: 'right'}"><i class="iconfont icon-share"></i></button>
+      <ul class="mdui-menu" id="share_menu">
+        <li class="mdui-menu-item">
+          <a href="http://service.weibo.com/share/share.php?appkey=&title=F8132 Project Treble&url=http://yoshino.top/2018/10/15/2018/10/15/F8132%20Project%20Treble/&pic=http://yoshino.top/null&searchPic=false&style=simple" target="_blank" class="mdui-ripple">分享到 Weibo</a>
+        </li>
+        <li class="mdui-menu-item">
+          <a href="https://twitter.com/intent/tweet?text=F8132 Project Treble&url=http://yoshino.top/2018/10/15/2018/10/15/F8132%20Project%20Treble/&via=Sjll" target="_blank" class="mdui-ripple">分享到 Twitter</a>
+        </li>
+        <li class="mdui-menu-item">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=http://yoshino.top/2018/10/15/2018/10/15/F8132%20Project%20Treble/" target="_blank" class="mdui-ripple">分享到 Facebook</a>
+        </li>
+        <li class="mdui-menu-item">
+          <a href="https://plus.google.com/share?url=http://yoshino.top/2018/10/15/2018/10/15/F8132%20Project%20Treble/" target="_blank" class="mdui-ripple">分享到 Google+</a>
+        </li>
+        <li class="mdui-menu-item">
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://yoshino.top/2018/10/15/2018/10/15/F8132%20Project%20Treble/&title=F8132 Project Treble" target="_blank" class="mdui-ripple">分享到 LinkedIn</a>
+        </li>
+        <li class="mdui-menu-item">
+          <a href="http://connect.qq.com/widget/shareqq/index.html?site=茉莉小站&title=F8132 Project Treble&summary=&pics=http://yoshino.top/null&url=http://yoshino.top/2018/10/15/2018/10/15/F8132%20Project%20Treble/" target="_blank" class="mdui-ripple">分享到 QQ</a>
+        </li>
+        <li class="mdui-menu-item">
+          <a href="https://telegram.me/share/url?url=http://yoshino.top/2018/10/15/2018/10/15/F8132%20Project%20Treble/&text=F8132 Project Treble" target="_blank" class="mdui-ripple">分享到 Telegram</a>
+        </li>
+      </ul>
+    
+  </div>
+  </header>
+  
+  
+  
+  
+  <div class="post-tags">
+    
+      <i class="iconfont icon-tag">
+        <a rel="tag" href = /tags/Treble/ >Treble</a>
+      </i>
+    
+  </div>
+
+  
+  <div class="mdui-card-content mdui-typo mdui-p-x-4">
+    <p>                              <strong>刷机有风险，备份好数据！</strong><br>                            博客托管在Github上，加载慢<br>注意</p>
+<hr>
+<p><strong>此分区表只适合Xperia X Performance F8132 64GB 版，F8131以及XZ,XZs用户请勿尝试。</strong></p>
+<h2 id="Treble化"><a href="#Treble化" class="headerlink" title="Treble化"></a>Treble化</h2><p>   1、所需工具段末提供,请解压，recovery为我所编译的支持treble的Twrp。<br>   2、蓝灯模式下，fastboot 刷入recovery.img：</p>
+<pre><code>fastboot flash recovery &lt; recovery.img的路径&gt;</code></pre>
+<p>   3、进入recovery，连接电脑，adb执行以下的命令：</p>
+<pre><code> adb shell
+ sgdisk /dev/block/mmcblk0 --delete 54
+ sgdisk /dev/block/mmcblk0 --new=54:2408448:105168896
+ sgdisk /dev/block/mmcblk0 --delete 55
+ sgdisk /dev/block/mmcblk0 --new=55:105168897:106815487
+ sgdisk /dev/block/mmcblk0 --new=56:106815488:122134527
+ sgdisk /dev/block/mmcblk0 --change-name=54:userdata
+ sgdisk /dev/block/mmcblk0 --change-name=55:vendor
+ sgdisk /dev/block/mmcblk0 --change-name=56:system</code></pre>
+<p>   4、重启进入recovery，在wipe界面把userdata分区格式化为ext4格式。<br>   5、刷入treble-v1.0-auto.zip，Treble化分区执行完成。</p>
+<hr>
+<p>   <strong>如果刷入不成功</strong>，请使用treble-v1.0.zip，解压后手动刷入Vendor.img和boot.img。<br>   进入蓝灯模式(bootloader)执行下面的命令：</p>
+<pre><code>fastboot flash vendor &lt; vendor.img的路径&gt;
+fastboot flash boot &lt; boot.img的路径&gt;</code></pre>
+<p>   6、刷入OEM.img</p>
+<pre><code>fastboot flash oem &lt; OEM.img的路径&gt;</code></pre>
+<p>   7、Treble化完成。
+   </p>
+<p>所需文件：<br><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1yNJLCyx71T-XeWkpk1qKmw">Treble-V1.0文件</a>  密码：bd3d<br><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1dmuB_3ohFB8-DBjlcQJIdQ">Treble-V1.2文件</a>  密码：a6d3</p>
+<h2 id="Treble版本公告"><a href="#Treble版本公告" class="headerlink" title="Treble版本公告"></a>Treble版本公告</h2><hr>
+<p>V1.2版本：基于Android P，OEM文件为OEM_P_V2.img<br>          已测试GSI固件：PixelExperienceP-arm64-aonly.img<br>          更新内容：SIM卡修复，见V1.2附图。<br>          已知问题：指纹录入崩溃。<br>          <br>V1.0版本：基于Android P，OEM文件为OEM_P.img<br>          已测试GSI固件：PixelExperienceP-arm64-aonly.img<br>          已知问题：SIM卡不工作，指纹录入崩溃。</p>
+<hr>
+<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>   如果data分区被强制加密，进入recovery格式化无效，可以通过如下方式解决：</p>
+<pre><code>fastboot flash userdata &lt; userdata.img的路径&gt;</code></pre>
+<p>   进入recovery的wipe界面，格式化data。<br>   <br>下载地址：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1o7LFBHhacFPLiMXDXPqdOw">userdata.zip</a> 密码：sbae</p>
+<h2 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h2><p>此项目的发展离不开Oneplus3 Treble项目的启示，以及Sony Open Devices项目。由衷感谢<br>一些图片</p>
+<hr>
+<p><strong>V1.2</strong><br><img src="https://github.com/sjllls/MyWordpress/raw/master/2018/10/20/Screenshot_20181020-203146.png" alt="此处输入图片的描述"><br><strong>V1.0</strong><br><img src="https://github.com/sjllls/MyWordpress/raw/master/2018/10/15/Screenshots/Screenshot_20081231-160240.png" alt="此处输入图片的描述"><br><img src="https://github.com/sjllls/MyWordpress/raw/master/2018/10/15/Screenshots/Screenshot_20081231-160248.png" alt="此处输入图片的描述"><br><img src="https://github.com/sjllls/MyWordpress/raw/master/2018/10/15/Screenshots/Screenshot_20081231-160252.png" alt="此处输入图片的描述"><br><img src="https://github.com/sjllls/MyWordpress/raw/master/2018/10/15/Screenshots/Screenshot_20180920-054017.png" alt="此处输入图片的描述"><br><img src="https://github.com/sjllls/MyWordpress/raw/master/2018/10/15/Screenshots/Screenshot_20180920-054023.png" alt="此处输入图片的描述"><br><img src="https://github.com/sjllls/MyWordpress/raw/master/2018/10/15/Screenshots/Screenshot_20180920-054029.png" alt="此处输入图片的描述"></p>
+
+  </div>
+  <!--文末结束语-->
+  
+    <div style="text-align:center;color: #ccc;font-size:24px;"> --- 本文结束 <i class="iconfont icon-heartbeat" style="font-size:24px;"></i> The End --- </div>
+  
+  <!--页脚广告-->
+  
+  <div class="mdui-divider"></div>
+  
+  <nav>
+    
+      <a rel="prev" class="post-nav-item mdui-float-left" href="/2018/12/20/2018/12/20/XZ%20Premium%20Project%20Treble/">
+        <i class="iconfont icon-angle-left"></i>
+        <span>XZ Premium Project Treble</span>
+      </a>
+    
+    
+      <a rel="next" class="post-nav-item mdui-float-right" href="/2018/10/01/2018/10/01/Beta-F8132%20Project%20Treble/">
+        <span>F8132 Treble化的探索</span>
+        <i class="iconfont icon-angle-right"></i>
+      </a>
+    
+  </nav>
+</article>
+
+
+
+
+  <div class="toc-button"  style="z-index: 100;">
+    <button class="mdui-fab mdui-ripple mdui-color-teal" mdui-menu="{target: '#toc'}"><i class="iconfont icon-list"></i></button>
+    <ul class="mdui-menu" id="toc">
+      <li class="mdui-menu-item">
+        <a href="/2018/10/15/2018/10/15/F8132%20Project%20Treble/" id="toc-header" class="mdui-ripple">文章目录</a>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Treble%E5%8C%96"><span class="toc-number">1.</span> <span class="toc-text">Treble化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Treble%E7%89%88%E6%9C%AC%E5%85%AC%E5%91%8A"><span class="toc-number">2.</span> <span class="toc-text">Treble版本公告</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%AE%E5%8A%A9"><span class="toc-number">3.</span> <span class="toc-text">帮助</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%84%9F%E8%B0%A2"><span class="toc-number">4.</span> <span class="toc-text">感谢</span></a></li></ol>
+      </li>
+    </ul>
+  </div>
+
+
+
+    <div id="comment" class="mdui-card mdui-p-a-2 mdui-m-b-5">
+      <div class="mdui-tab" mdui-tab>
+        
+          <a href="#comment-tab0" class="mdui-ripple">gitalk</a>
+        
+      </div>
+      
+        <div id="comment-tab0" class="mdui-p-a-2">
+          <div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+    clientID: '423c3cba0967ac7651d6',
+    clientSecret: 'ceed4312140c43f184924d8ac80bac13e363420f',
+    repo: 'Blog',
+    owner: 'sjllls',
+    admin: ['sjllls'],
+    id:  md5(location.pathname) ,
+    distractionFreeMode: 'true',
+  });
+  gitalk.render('gitalk-container');
+</script>
+        </div>
+      
+    </div>
+
+  </main>
+  <footer id="footer" class="mdui-text-center mdui-m-t-5 mdui-p-b-2 mdui-p-t-4 mdui-color-theme">
+  <div class="mdui-container">
+    <div class="mdui-row">
+      
+        <a href="https://beian.miit.gov.cn" rel="noopener" target="_blank"></a>
+      
+      <span>
+        &copy; 2020 - 2020 
+        
+          <span style="color:#d9333f" class="iconfont icon-heart"></span>
+        
+        Sjll
+      </span>
+    </div>
+    <div class="mdui-row">
+      
+        <div class="mdui-col-xs-6 mdui-text-right">
+          <span>Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a></span>
+        </div>
+        <div class="mdui-col-xs-6 mdui-text-left">
+          <span>Theme: <a href="https://github.com/kb1000fx/Meadow" rel="noopener" target="_blank">Meadow</a></span>
+        </div>
+      
+    </div>
+    <div class="mdui-row">
+      
+        <div class="mdui-col-xs-6 mdui-text-right">
+          <span id="busuanzi_container_site_uv" style="display: none;"> <span class="iconfont icon-user"></span>总访客量 <span id="busuanzi_value_site_uv"></span></span>
+        </div>
+        <div class="mdui-col-xs-6 mdui-text-left">
+          <span id="busuanzi_container_site_pv" style="display: none;"> <span class="iconfont icon-eye"></span>总访问量 <span id="busuanzi_value_site_pv"></span></span>
+        </div>
+      
+    </div>
+ </div>
+</footer>
+  
+  <button id="gotop" class="mdui-fab mdui-fab-fixed mdui-fab-hide mdui-ripple mdui-color-teal" style="z-index:100;"><i class="iconfont icon-arrowup"></i></button>
+  
+  
+
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.8/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({
+        startOnLoad: true,
+        theme: "default"
+    });</script>
+
+
+
+
+    
+<script src="/js/mdui.min.v1.0.0.js"></script>
+
+
+
+
+<script src="/js/meadow.js"></script>
+
+</body>
+</html >
